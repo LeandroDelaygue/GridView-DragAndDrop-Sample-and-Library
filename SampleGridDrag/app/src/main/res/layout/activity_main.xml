@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:dragAndDrop="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <com.ldelaygue.gridviewdinamic_draganddrop.classes.DinamicDragAndDropGridView
+        android:id="@+id/dinamicDragAndDropGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        dragAndDrop:itemMargin="5dp"
+        dragAndDrop:numColumns="@integer/col_count" >
+
+    </com.ldelaygue.gridviewdinamic_draganddrop.classes.DinamicDragAndDropGridView>
+
+
+</LinearLayout>
